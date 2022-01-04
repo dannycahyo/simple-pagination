@@ -98,6 +98,7 @@ export default function App() {
             value={pageSize}
             onChange={(event) => {
               setpageSize(event.target.value);
+              setCurrentPage(1);
             }}
           >
             {pageOptions.map((page) => (
